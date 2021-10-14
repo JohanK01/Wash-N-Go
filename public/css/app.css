@@ -18,16 +18,26 @@
 }
 
 #btnDrop{
-  width: 25%;
+  width: 50%;
   font-size: 20px;
+  height: 10%;
 }
 
 .space{
   padding:2%;
 }
 
-#date1{
+/* #date1{
   font-size: 20px;
   text-align:center;
   
+} */
+#date {
+  float:left;
+  display: none;
+  padding: 50px 0;
+  text-align: center;
+  width:50%;
+  background-color: #6898F5;
+  margin-top: 20px;
 }

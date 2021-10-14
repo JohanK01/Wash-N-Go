@@ -1,15 +1,28 @@
 'use strict';
 
+let BookBtn = document.createElement('button');
+BookBtn.textContent = "Book now";
+BookBtn.id = "bkBtn";
+BookBtn.display = "none";
 
 
-function ShowTime() {
-    var x = document.getElementsById('date1');
-    if(x.style.display == "none")
-    {
-        x.style.display ='block';
+document.getElementById('date').appendChild(BookBtn)
+function myFunction() {
+    var x = document.getElementById("date");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
     }
-    else
-    {
-        x.style.display = 'none';
+  }
+
+  function dateFunction() {
+    var y = document.getElementById("bkBtn");
+    document.getElementById("date").style.color = "red";
+    if (y.style.display === "block") {
+        y.style.display = "none";
+      } else {
+        y.style.display = "block";
+      }
     }
-}
+  
