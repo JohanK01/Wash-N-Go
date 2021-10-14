@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src = "../js/login.js" ></script>
+    <title>Login Page</title>
 </head>
 <body>
-    <h1>Alive</h1>
+    <div class="header"> <!--Might want to put more things inside this, text for now-->
+        <div class="WashnGoLogo">
+            <h1>Wash n GO</h1>
+        </div>
+    </div>
+
+    <div class="container"> <!--Everything inside the form-->
+        <form class="form">
+            <div class="title">Wash N Go</div>
+            <div class="formItem"> 
+                <label>E-mail</label>
+                <input type="text" class="input" id="email" placeholder="Example@hotmail.com">
+            </div>
+            <br>
+            <div class="formItem">
+                <label>Lösenord</label>
+                <input type="password" class="input" id="pas" placeholder="Type your password">
+            </div>
+            <button type="button" class="btn" onclick="Loginfunction()">Log in</button> 
+                    <!--Calls for the function in linked js file-->
+        </form>
+        
+    </div>
 </body>
 </html>
