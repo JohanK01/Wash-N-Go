@@ -21,8 +21,7 @@
     line-height: 3;
 }
 .formItem{
-    display: flex;
-    flex-flow: column;
+    width: 100%;
 }
 label{
     text-align: left;
